@@ -1,8 +1,31 @@
 <html>
 <head>
 	<title>Hello World</title>
+<style>
+.button1 { 
+	margin: 100px;
+	padding: 15px 50px;
+	font-size: 30px;
+	color: gray;
+	box-shadow: 
+		0 0 3px 3px hsl(0, 0%, 65%),
+		0 0 0 9px hsl(0, 0%, 85%),
+		0 0 1px 12px hsl(0, 0%, 90%),
+		0 0 1px 14px hsl(0, 0%, 50%); 
+		/*pos, pos, blur, spread*/
+		/*http://www.w3schools.com/css/css3_shadows.asp*/
+
+	text-transform: uppercase;
+	border-radius: 7px;
+	background: linear-gradient(hsl(0, 0%, 95%) 50%, hsl(0,0%,85%) 100%);
+	text-shadow: 0px 2px 0px rgba(255,255,255,.5);
+}
+
+</style>
 </head>
 <body>
-<button>checkout</button>
+	<a href="http://www.google.com">
+		<button class="button1">checkout</button>
+	</a>
 </body>
 </html>
